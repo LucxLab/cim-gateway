@@ -1,0 +1,11 @@
+{
+    "endpoints": [
+        {
+            "endpoint": "/health",
+            "method": "GET",
+            "backend_url_pattern": "/health/ready",
+            "backend_method": "GET",
+            "backend_host": "http://localhost:5159"
+        }
+    ]
+}
